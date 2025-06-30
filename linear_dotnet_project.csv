@@ -1,0 +1,39 @@
+Title,Description,Labels,Epic
+Setup du projet .NET,"Créer une solution .NET avec un projet ASP.NET Core Web API (.NET 8).
+[Doc officielle](https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-vsc?view=aspnetcore-8.0)","dotnet,setup,api",Initialisation & Configuration
+Ajouter Swagger,"Installer et configurer Swagger pour documenter l'API REST.
+[Guide Swagger](https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-8.0)","swagger,documentation",Initialisation & Configuration
+Configurer Entity Framework Core,"Configurer EF Core avec SQLite ou SQL Server local.
+[Doc EF Core](https://learn.microsoft.com/en-us/ef/core/get-started/overview/first-app)","efcore,database",Initialisation & Configuration
+Créer modèle Book,"Classe Book avec Id, Title, Author, Year, Genre, Description.
+[Model Binding](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding)","model,book",Modèle de données & DB
+Créer DbContext,"Créer LibraryDbContext basé sur DbContext.
+[Configurer DbContext](https://learn.microsoft.com/en-us/ef/core/dbcontext-configuration/)","dbcontext,efcore",Modèle de données & DB
+Créer et appliquer migration,"Créer une migration EF Core puis la lancer sur la base.
+[EF Core Migrations](https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/)","migration,database",Modèle de données & DB
+GET /books,"Endpoint pour retourner tous les livres.
+[API Controller](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-8.0)","api,get",API REST
+GET /books/{id},"Retourne un livre via son identifiant.
+[Routing](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/routing)","api,get",API REST
+POST /books,"Créer un livre à partir d'une requête JSON.
+[POST API](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-8.0#post-method-example)","api,post",API REST
+PUT /books/{id},"Modifier un livre existant.
+[EF Core Save](https://learn.microsoft.com/en-us/ef/core/saving/basic)","api,put",API REST
+DELETE /books/{id},"Supprimer un livre par ID.
+[EF Core Delete](https://learn.microsoft.com/en-us/ef/core/saving/basic#deleting-data)","api,delete",API REST
+Validation via Data Annotations,"Utiliser des annotations comme [Required], [Range], etc.
+[Data Annotations](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation)","validation,dataannotations",Validation & Erreurs
+Gestion d’erreurs globales,"Utiliser UseExceptionHandler() pour centraliser les erreurs.
+[Error Handling](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling)","error,exceptions",Validation & Erreurs
+Authentification JWT,"Mettre en place l’authentification JWT.
+[JWT Auth](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/jwt)","auth,jwt",Authentification
+Rôles Admin et User,"Utiliser des rôles et policies.
+[Authorization Roles](https://learn.microsoft.com/en-us/aspnet/core/security/authorization/roles)","auth,roles",Authentification
+Initialiser projet de test avec xUnit,"Créer un projet Library.Tests avec xunit.
+[Test xUnit](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)","tests,xunit",Tests
+Écrire tests CRUD sur service,"Tester les méthodes CRUD du service.
+[Moq](https://github.com/moq/moq4/wiki/Quickstart)","tests,moq",Tests
+Dockeriser l’API,"Créer Dockerfile et docker-compose.yml.
+[Docker Guide](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container)","docker,deploy",Déploiement
+Déployer sur Azure ou Render,"Déployer l’API sur une plateforme cloud.
+[Azure Deploy](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/azure-apps/)","cloud,azure",Déploiement
